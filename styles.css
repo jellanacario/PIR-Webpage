@@ -39,6 +39,10 @@ h3>a {
     color: #f2f2f2;
 }
 
+h3>a:hover {
+    color: #ffb703;
+}
+
 nav {
     width: 60%;
     max-width: 300px;
@@ -70,6 +74,41 @@ li>a:hover {
 }
 
 main {
-    padding-top: 75px;
+    margin-top: 75px;
+    padding: 100px 25px 50px 25px;
+    width: 100%;
+    /* background-color: #ffb703; */
 }
+
+.homepage{
+    height: 400px;
+    padding-left: 50px;
+}
+
+.homepage h1 {
+    font-size: 65px;
+    padding-bottom: 10px;
+}
+
+.homepage p.note{
+    font-style: italic;
+    font-size: 10px;
+}
+
+.homepage a {
+    text-decoration: none;
+    color: #0E1111;
+}
+
+.button {
+    background-color: #ffb803d5;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 8px;
+}
+
+
+
+
 
