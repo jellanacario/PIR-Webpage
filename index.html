@@ -4,44 +4,78 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik"">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik">
     <title>PIR Webpage</title>
 </head>
 <body>
     <header>
-        <h3>PENTABYTE</h3>
+        <h3><a href="index.html">PENTABYTE</a></h3>
         <nav id="navbar">
             <ul>
                 <li>
-                    <a href="" class="nav-link">How it works</a>
+                    <a href="how-it-works.html" class="nav-link">How it works</a>
                 </li>
                 <li>
-                    <a href="" class="nav-link">About Us</a>
+                    <a href="about-us.html" class="nav-link">About Us</a>
                 </li>
                 <li>
-                    <a href="" class="nav-link">Log In</a>
+                    <a href="login-page.html" class="nav-link">Log In</a>
                 </li>
             </ul>
         </nav>
     </header>
 
+    <main>
+        <!-- HOMEPAGE = Title and Features -->
+        <div class="homepage">
+            <div class="heading">
+                <h1>PIR Motion Sensor Tracker</h1>
+                <p>
+                    Brief description
+                </p>
+                <a class="login-button" 
+                   href="#login-page">
+                    LOGIN
+                </a>
+                <p>
+                    * Log in to access dashboard
+                </p>
 
-     <div class="homepage">
-        <div class="heading"></div>
-        <div class="sub-heading"></div>
-    </div>
+                <a href="#how-it-works" 
+                   class="how-it-works-button">
+                    How it works
+                </a>
+                <p>
+                    *Know more about our project
+                </p>
 
-    <div class="login-page" id="login-page">
-        <!-- user-icon, username, password, login botton -->
-    </div>
+           </div>
+           <div class="sub-heading">
 
-    <div class="dashboard" id="dashboard">
-        <!-- date, time, status, time connected, live transmission -->
-    </div>
+           </div>
+       </div>
 
-    <div class="about-us">
-        <!-- proponents, school, etc -->
-    </div>
+       <!-- HOW IT WORKS = Project Descriptions -->
+       <div class="how-it-works" id="how-it-works">
+
+       </div>
+
+       <!-- LOGIN PAGE -->
+       <div class="login-page" id="login-page">
+           <!-- user-icon, username, password, login botton -->
+       </div>
+   
+       <!-- DASHBOARD = Real-time results -->
+       <div class="dashboard" id="dashboard">
+           <!-- date, time, status, time connected, live transmission -->
+       </div>
+    
+       <!-- ABOUT US = Proponents of the Project -->
+       <div class="about-us" id="about-us">
+           <!-- proponents, school, etc -->
+       </div>
+    </main>
+
     
 </body>
 </html>
