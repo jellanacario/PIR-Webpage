@@ -6,6 +6,7 @@ button = #fb8500 / #ffb703 */
 * {
     padding: 0;
     margin: 0;
+    /* box-sizing: border-box; */
 }
 
 body {
@@ -14,7 +15,7 @@ body {
     font-family: Montserrat;
     min-width: 500px;
 }
-
+/* NAV BAR */
 header {
     width: 100%;
     height: 80px;
@@ -80,7 +81,7 @@ main {
     gap: 32px;
     /* background-color: #ffb703; */
 }
-
+/* BODY CONTENTS */
 .headline {
     display: flex;
     align-items: flex-start;
@@ -174,11 +175,11 @@ main {
     align-items: flex-start;
     flex-direction: row;
     justify-content: center;
-    width: auto;
+    width: 100%;
     height: 420px;
-    padding: 32px 0px 20px 0px;
+    padding: 32px 20px 20px 20px;
     gap: 20px;
-    background-color: #ffb803aa;
+    /* background-color: #ffb803aa; */
 }
 /* TODO: simply after having contents */
 .features .container1 {
@@ -202,13 +203,39 @@ main {
     border-radius: 8px;
 }
 
+/* LOG IN PAGE */
+
+.login-page {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    width: auto;
+    height: 500px;
+    padding: 32px 32px 32px 32px;
+    gap: 10px;
+    background-color: #2a455e;
+}
+
+.about-us {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    width: auto;
+    height: 500px;
+    padding: 32px 32px 32px 32px;
+    gap: 10px;
+    background-color: #2a455e;
+}
+
+/* FOOTER */
 footer {
     display: flex;
-    justify-content: right;
+    justify-content:end;
     align-items: center;
     text-align: right;
     padding: 0 32px 32px 32px;
-
 }
 
 
