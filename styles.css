@@ -261,49 +261,28 @@ main {
 
 .db-status-containers {
     display: flex;
-    align-items: center;
     justify-content: center;
-    text-align: center;
+    align-content: center;
     flex-direction: row;
     gap: 20px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding: 32px 0 0px 0;
+
 }
 
-.status {
-    width: 200px;
-    height: 50px;
-
+.status, .date, .time, .time-connected, .live-transmission {
     background: #D9D9D9;
-    box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
 }
 
-.date {
-    width: 200px;
-    height: 50px;
- 
-    background: #D9D9D9;
-    box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
-}
-
-.time {
+.status, .date, .time, .time-connected {
     width: 200px;
     height: 50px;
 
-    background: #D9D9D9;
-    box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
-}
-
-.time-connected {
-    width: 200px;
-    height: 50px;
-
-    background: #D9D9D9;
-    box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5px;
 }
 
 .live-transmission {
@@ -314,11 +293,20 @@ main {
 
     width: auto;
     height: 600px;
+}
 
+.db-status-subtitle {
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+    grid-template-rows: 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 0px;
 
-    background: #D9D9D9;
-    box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 20px;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 32px;
+    /* font-weight: 800; */
+
 }
 
 /* ABOUT US PAGE */
