@@ -10,7 +10,9 @@ button = #fb8500 / #ffb703 */
 }
 
 body {
-    background-color: #f2f2f2;
+    /* background-color: #f2f2f2; */
+    height: 100%;
+    background: #E4E5E6;
     color: #0E1111;
     font-family: Montserrat;
     min-width: 500px;
@@ -87,6 +89,8 @@ main {
     margin: 112px 32px 32px 32px;
     gap: 10px;
     /* background-color: #2a455e; */
+    
+
 }
 
 .index-contents {
@@ -185,34 +189,63 @@ main {
 
 .slider-frame {
     overflow: hidden;
-    max-height: 500px;
-    max-width: 500px;
+    height: 500px;
+    width: 500px;
     grid-area: 1 / 2 / 6 / 3;
     border-radius: 5px;
     margin-top: 20px;
+    box-shadow: -1px 5px 15px rgba(0, 0, 0, 0.549);
 }
 
 /* SLIDE ANIMATION */
 
-@-webkit-keyframes slide_animation {
-    0% {left: 0px;}
-    10% {left: 0px;}
-    20% {left: 500px;}
-    30% {left: 500px;}
-    40% {left: 1000px;}
-    50% {left: 1000px;}
-    60% {left: 500px;}
-    70% {left: 500px;}
-    80% {left: 0px;}
-    90% {left: 0px;}
-    100% {left: 0px;}
+.slide-images {
+    width: 500px;
+    height: 500px;
+    position: relative;
+    animation: slide_animation 18s infinite;
+}
+
+@keyframes slide_animation {
+    0%{
+        transform: translateY(0);
+    }
+    20%{
+        transform: translateY(-100%);
+    }
+    25%{
+        transform: translateY(-200%);
+    }
+    40%{
+        transform: translateY(-300%);
+    }
+    45%{
+        transform: translateY(-400%);
+    }
+    65%{
+        transform: translateY(-500%);
+    }
+    70%{
+        transform: translateY(-600%);
+    }
+    90%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+.img-container {
+    width: 500px;
+    height: 500px;
+    position: relative;
 }
 
 img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 500px
+    width: 500px;
+    height: 500px;
+
 }
 
 /* HOW IT WORKS */
