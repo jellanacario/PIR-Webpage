@@ -296,18 +296,99 @@ img {
 
 
 /* LOG IN PAGE */
-
 .login-page {
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-    justify-content: center;
-    width: auto;
-    height: 500px;
-    padding: 32px 32px 32px 32px;
-    gap: 10px;
-    background-color: #2a455e;
+    height: 100%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    padding: 32px;
+    margin: 32px;
 }
+
+#main-holder {
+    width: 600px;
+    height: 500px;
+
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+
+    background-color: #f2f2f2;
+    border-radius: 7px;
+    border: 1px solid#0E1111;
+    box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  
+  #login-error-msg-holder {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+  }
+  
+  #login-error-msg {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #8a0000;
+    border: 1px solid #8a0000;
+    background-color: #e58f8f;
+    opacity: 0;
+  }
+  
+  #login-form {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .login-header {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  #main-holder img {
+    width: 100px;
+    height: 100px;
+    margin-top: 32px;
+  }
+
+  .login-form-field::placeholder {
+    color: #3a3a3a7b;
+  }
+  
+  .login-form-field {
+    width: 250px;
+    height: 32px;
+    border: none;
+    border-bottom: 1px solid #3a3a3a;
+    margin-bottom: 10px;
+    border-radius: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    padding-left: 5px;
+  }
+  
+  #login-form-submit {
+    width: 50%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    background-color: #003566;
+    cursor: pointer;
+  }
+
 
 /* DASHBOARD PAGE */
 /* body */
