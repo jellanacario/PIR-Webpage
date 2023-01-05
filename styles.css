@@ -250,7 +250,7 @@ img {
 .how-it-works {
     position: relative;
     padding: 32px;
-    margin: 112px 32px 32px 32px;
+    margin: 100px 32px 32px 32px;
     gap: 10px;
 
     display: flex;
