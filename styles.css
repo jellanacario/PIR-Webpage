@@ -433,7 +433,41 @@ img {
 
 }
 
-.status, .date, .time, .time-connected, .live-transmission {
+.status{
+    font-size: 1.3em;
+    font-weight: bold;
+    background: #88A47C;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+
+.date{
+    font-size: 1.1em;
+    font-weight: bold;
+    background: #F6CD90;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+
+.time{
+    font-size: 1.3em;
+    font-weight: bold;
+    background: #81C6E8;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.time-connected{
+    font-weight: bold;
+    font-size: 1.3em;
+    background: #FEBE8C;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.live-transmission {
     background: #D9D9D9;
     box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
@@ -568,8 +602,3 @@ footer {
     bottom: 0;
     right: 0;
 }
-
-
-
-
-
